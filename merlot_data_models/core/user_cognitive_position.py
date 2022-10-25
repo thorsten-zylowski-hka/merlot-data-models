@@ -1,9 +1,9 @@
 from pydantic import BaseModel
 from typing import Optional
 
-from educational_graph_node import EducationalGraphNode
-from learning_object import LearningObject
-from educational_path import EducationalPath
+from core.educational_graph_node import EducationalGraphNode
+from core.learning_object import LearningObject
+from core.educational_path import EducationalPath
 
 class UserCognitivePosition(BaseModel):
     formalPosition: EducationalGraphNode

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List
-from learning_object import LearningObject
+from core.learning_object import LearningObject
 
 class EducationalPath(BaseModel):
     start: LearningObject
