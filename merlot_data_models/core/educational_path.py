@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List
-from core.learning_object import LearningObject
+from merlot_data_models.core.learning_object import LearningObject
 
 class EducationalPath(BaseModel):
     start: LearningObject

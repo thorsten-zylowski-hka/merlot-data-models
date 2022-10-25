@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 from typing import Optional
 
-from core.educational_graph_node import EducationalGraphNode
-from core.learning_object import LearningObject
+from merlot_data_models.core.educational_graph_node import EducationalGraphNode
+from merlot_data_models.core.learning_object import LearningObject
 
 class UserGoal(BaseModel):
     formalGoal: EducationalGraphNode
