@@ -5,5 +5,6 @@ setup(
    version='1.0.0',
    description='Models of the Merlot project used in the APIs and applications',
    author='HKA',
-   author_email='foomail@foo.example'
+   author_email='foomail@foo.example',
+   packages=['merlot-data-models','core','path_prediction']
 )
