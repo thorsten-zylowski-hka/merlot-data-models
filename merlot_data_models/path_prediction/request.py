@@ -1,6 +1,7 @@
 from pydantic import BaseModel
-from typing import Optional
-from merlot_data_models.core.cognitive_position import UserCognitivePosition
+
+from merlot_data_models.core.cognitive_position import CognitivePosition
+
 
 class PathPredictionRequest(BaseModel):
-    cognitive_position: UserCognitivePosition
+    cognitive_position: CognitivePosition
