@@ -4,14 +4,11 @@ from typing import Optional
 from merlot_data_models.core.educational_level import EducationalLevel
 from merlot_data_models.core.name import Name
 
-class SkillAttribtes(BaseModel):
+class Skill(BaseModel):
     name: Name
-    educationalFramework: str
-    educationalLevel: EducationalLevel
+    educationalFramework: Optional[str]
+    educationalLevel: Optional[str]
     alternateName: Optional[str]
-    description: str
+    description: Optional[str]
     url: Optional[str]
     targetUrl: Optional[str]
-
-class Skill(BaseModel):
-    skill: SkillAttribtes

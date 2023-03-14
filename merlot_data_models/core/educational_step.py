@@ -10,8 +10,8 @@ class EducationalStepAttributes(BaseModel):
     contentLocation: Optional[Place]
     keywords: Optional[List[str]]
     certificate: Optional[Certificate]
-    startDate: Optional[List[str]]
-    endDate: Optional[List[str]]
+    startDate: Optional[str]
+    endDate: Optional[str]
     status: Optional[str]
 
 class EducationalStep(BaseModel):

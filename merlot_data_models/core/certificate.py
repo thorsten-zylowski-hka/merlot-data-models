@@ -5,7 +5,7 @@ from merlot_data_models.core.document import Document
 
 class CertificateAttributes(BaseModel):
     title: str
-    certifingOrganization: str
+    certifyingOrganization: str
     documents: Optional[List[Document]]
     issueDate: Optional[str]
     expiryDate: Optional[str]

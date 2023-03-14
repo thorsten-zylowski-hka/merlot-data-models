@@ -4,4 +4,4 @@ from merlot_data_models.core.cognitive_position import CognitivePosition
 
 
 class PathPredictionRequest(BaseModel):
-    cognitive_position: CognitivePosition
+    cognitivePosition: CognitivePosition
