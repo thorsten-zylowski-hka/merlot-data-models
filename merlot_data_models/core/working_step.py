@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 from merlot_data_models.core.place import Place
@@ -11,10 +11,10 @@ class WorkingStepAttributes(BaseModel):
     title: str
     description: str
     hiringOrganization: HiringOrganization
-    keywords: List[str]
-    jobStartDate: str
-    jobEndDate: str
-    status: str
+    keywords: Optional[List[str]]
+    jobStartDate: Optional[str]
+    jobEndDate: Optional[str]
+    status: Optional[str]
 
 class WorkingStep(BaseModel):
     identifier: str

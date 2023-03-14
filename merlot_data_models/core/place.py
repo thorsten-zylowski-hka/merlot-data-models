@@ -1,8 +1,9 @@
 from pydantic import BaseModel
+from typing import Optional
 
 
 class Place(BaseModel):
     name: str
     address: str
-    longitude: float
-    latitude: float
+    longitude: Optional[float]
+    latitude: Optional[float]

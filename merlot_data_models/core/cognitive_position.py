@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 from merlot_data_models.core.assessment import Assessment
 
 from merlot_data_models.core.educational_step import EducationalStep
@@ -14,7 +14,7 @@ class CognitivePositionAttributes(BaseModel):
     skills: List[Skill]
     interests: Interests
     userTargets: UserTargets
-    personalAssessment: List[Assessment]
+    personalAssessment: Optional[List[Assessment]]
 
 class CognitivePosition(BaseModel):
     identifier: str

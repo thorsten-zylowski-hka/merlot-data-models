@@ -1,4 +1,5 @@
-from typing import List
+from typing import List, Optional
+
 from pydantic import BaseModel
 
 class EducationalTarget(BaseModel):
@@ -8,5 +9,5 @@ class EducationalTarget(BaseModel):
 class UserTargets(BaseModel):
     educationalTarget: EducationalTarget
     careerTargets: List[str]
-    positionChangeReasons: List[str]
-    personalRequirements: List[str]
+    positionChangeReasons: Optional[List[str]]
+    personalRequirements: Optional[List[str]]

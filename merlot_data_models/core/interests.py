@@ -1,9 +1,9 @@
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 
 class Interests(BaseModel):
-    personalInterests: List[str]
-    hobbies: List[str]
-    volunteering: List[str]
-    opinions: List[str]
+    personalInterests: Optional[List[str]]
+    hobbies: Optional[List[str]]
+    volunteering: Optional[List[str]]
+    opinions: Optional[List[str]]

@@ -1,17 +1,17 @@
 from pydantic import BaseModel
-from merlot_data_models.core.educational_level import EducationalLevel
+from typing import Optional
 
+from merlot_data_models.core.educational_level import EducationalLevel
 from merlot_data_models.core.name import Name
 
 class SkillAttribtes(BaseModel):
     name: Name
     educationalFramework: str
-    url: str
     educationalLevel: EducationalLevel
-    alternateName: str
+    alternateName: Optional[str]
     description: str
-    url: str
-    targetUrl: str
+    url: Optional[str]
+    targetUrl: Optional[str]
 
 class Skill(BaseModel):
     skill: SkillAttribtes
