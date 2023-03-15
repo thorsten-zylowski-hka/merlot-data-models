@@ -16,5 +16,5 @@ class EducationalStepAttributes(BaseModel):
 
 class EducationalStep(BaseModel):
     identifier: str
-    type = str
+    type: str
     attributes: EducationalStepAttributes
