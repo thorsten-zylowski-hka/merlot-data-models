@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import List, Optional, Any
 from merlot_data_models.core.certificate import Certificate
 from merlot_data_models.core.place import Place
 
@@ -18,3 +18,14 @@ class EducationalStep(BaseModel):
     identifier: str
     type: str
     attributes: EducationalStepAttributes
+
+class EducationalStepExplanationAttributes(BaseModel):
+    identifier: str
+    description: Optional[str]
+    explanationType: str # SHAP, LIME etc
+    payload: Any = None
+
+class EducationalStepExplanation(BaseModel):
+    identifier: str
+    type: str
+    attributes: EducationalStepExplanationAttributes
