@@ -11,5 +11,5 @@ class OccupationAttributes(BaseModel):
 
 class Occupation(BaseModel):
     identifier: str
-    type = "Occupation"
+    type: str = "Occupation"
     attributes: OccupationAttributes

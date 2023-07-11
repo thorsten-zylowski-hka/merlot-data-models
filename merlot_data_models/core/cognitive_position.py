@@ -18,5 +18,5 @@ class CognitivePositionAttributes(BaseModel):
 
 class CognitivePosition(BaseModel):
     identifier: str
-    type = "Cognitive Position"
+    type: str = "Cognitive Position"
     attributes: CognitivePositionAttributes
