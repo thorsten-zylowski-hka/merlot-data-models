@@ -4,6 +4,7 @@ from typing import List, Optional, Dict
 from merlot_data_models.core.cognitive_position import CognitivePosition
 from merlot_data_models.core.educational_step import EducationalStep
 from merlot_data_models.core.formal_educational_step import FormalEducationalStep
+from merlot_data_models.core.occupation import Occupation
 
 
 class ExplanationConfiguration(BaseModel):
@@ -17,6 +18,7 @@ class PathPredictionRequestConfiguration(BaseModel):
 class PathPredictionHints(BaseModel):
     formalEducationalPath: Optional[List[FormalEducationalStep]]
     educationalSteps: Optional[Dict[FormalEducationalStep, EducationalStep]]
+    occupations: Optional[List[Occupation]]
 
 class PathPredictionRequest(BaseModel):
     cognitivePosition: CognitivePosition
