@@ -17,4 +17,4 @@ class UserTargets(BaseModel):
     careerTargets: List[str]
     positionChangeReasons: Optional[List[str]]
     personalRequirements: Optional[List[str]]
-    preferredLocations = Optional[List[PreferredLocation]]
+    preferredLocations: Optional[List[PreferredLocation]]
