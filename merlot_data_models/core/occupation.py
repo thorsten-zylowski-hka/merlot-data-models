@@ -1,12 +1,12 @@
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import Dict, Optional
 
-from merlot_data_models.core.cognitive_position import CognitivePosition
 
 class OccupationAttributes(BaseModel):
     name: str
     url: Optional[str]
     description: Optional[str]
+    riasec: Optional[Dict[str,float]]
 
 
 class Occupation(BaseModel):
