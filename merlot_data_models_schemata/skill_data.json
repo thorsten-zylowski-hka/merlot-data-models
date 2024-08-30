@@ -1,0 +1,16 @@
+{
+    "skill" : {
+        "name" : [
+            {
+                "inLanguage" : "",
+                "name" : ""
+            }
+        ],
+        "alternateName" : "",
+        "description" : "",
+        "educationalFramework": "",
+        "url" : "https://example.url",
+        "targetUrl" : "https://example.url",
+        "educationalLevel" : "An educational level defined by a framework"
+    }
+}

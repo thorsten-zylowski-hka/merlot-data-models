@@ -1,0 +1,21 @@
+{
+    "educationalStep" : {
+        "identifier" : "1111111",
+        "type" : "Educational Programme",
+        "attributes" : {
+            "identifier" : "",
+            "name" : "",
+            "description" : "",
+            "contentLocation" : {
+                "name" : "",
+                "address" : "",
+                "latitude" : 0.00000,
+                "longitude" : 0.00000
+            },
+            "keywords" : ["C#", "Java"],
+            "startDate" : ["10.2019"],
+            "endDate" : ["11.2019"],
+            "status" : "finished"
+        }
+    }
+}

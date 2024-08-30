@@ -1,0 +1,528 @@
+{
+    "identifier": "792917496-897232553",
+    "type": "EducationalOccupationalProgram",
+    "attributes": {
+        "name": "Bachelor in Informatics",
+        "educationalProgrammeCode": "bachelor-informatics",
+        "educationalProgrammeMode": ["onsite", "full-time"],
+        "description": "Der Bachelorstudiengang Informatik bereitet Sie praxisnah und mit einer hohen Qualität an aktuellem Wissen und jahrelanger Erfahrung in der Lehre auf eine IT-Karriere vor, die Ihnen unzählige berufliche Möglichkeiten in unterschiedlichen Branchen bietet. Die im Studium erworbenen Fähigkeiten – beispielsweise komplexe Probleme zu analysieren, Programmlösungen zu entwickeln, im Team zu arbeiten und mit Kunden in Dialog zu treten – sind die optimale Grundlage für den Einstieg in ein spannendes und abwechslungsreiches Berufsleben.",
+        "inLanguage": ["de"],
+        "startDate": "2023-03-01",
+        "endDate": "2023-08-31",
+        "image": {
+            "alternativeText": "The image shows the logo of the Hochschule Karlsruhe (HKA).",
+            "url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_WE-IAF/Test/HKA_Logo_Gesamt-h_RGB.svg",
+            "licenses": {
+                "id": "Proprietary",
+                "url": "https://www.wipo.int/copyright/en/"
+            }
+        },
+        "video": {
+            "alternativeText": "The video shows a new look from the Karlsruhe University of Applied Science (now HKA and formerly HsKA)",
+            "url": "https://www.youtube.com/watch?v=gmIdmSL8kbk",
+            "licenses": {
+                "id": "Proprietary",
+                "url": "https://www.wipo.int/copyright/en/"
+        },
+        "teaches": [
+            {
+                "name": "programming computer systems",
+                "alternateName": "programming_computer_systems",
+                "description": "Writing and submitting instructions, specifications and programmes for computers.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/d6e4373a-ef2c-4b64-9dc6-4140846f6609"
+            },
+            {
+                "name": "using digital tools for collaboration, content creation and problem solving",
+                "alternateName": "digital_tools_for_collaboration",
+                "description": "Using ICT software and hardware to collaborate and communicate with others, creating and editing new content (from word processing to images and video) and solving conceptual, technical and practical problems.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/cacc62f3-2df4-4cc3-9d5d-0d014db56bd9"
+            },
+            {
+                "name": "accessing and analysing digital data",
+                "alternateName": "accessing_and_analysing_digital_data",
+                "description": "Using digital tools to browse, search, filter, organise, store, retrieve, and analyse data, information and digital content, to collaborate and communicate with others, and create and edit new content.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/28d2ab6c-38a2-476e-85fe-7982fd242943"
+            }
+        ],
+        "termDuration": "semester",
+        "termsPerYear": "2",
+        "timeToComplete": "7 semesters",
+        "publisher": {
+            "name": "Hochschule Karlsruhe",
+            "url": "https://h-ka.de/",
+            "logo": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_WE-IAF/Test/HKA_Logo_Gesamt-h_RGB.svg"
+        },
+        "url": "https://www.h-ka.de/infb",
+        "workload": {
+            "timeValue": "30",
+            "timeUnit": "h/week"
+        },
+        "programPrerequisites": ["fachabitur"],
+        "educationalAlignment": {
+            "educationalFramework": "ISCED",
+            "targetName": "0619 Information and Communication Technologies not elsewhere classified",
+            "targetUrl": "http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf"
+        },
+        "educationalLevel": {
+            "targetName": "6 Bachelors equivalent",
+            "educationalFramework": "ISCED",
+            "targetUrl": "http://uis.unesco.org/sites/default/files/documents/isced-2011-en.pdf"
+        },
+        "keywords": ["internet", "netzwerk", "informatik", "programming"],
+        "contentLocation": {
+            "address": "Moltkestraße 30, 76133 Karlsruhe",
+            "name": "Hochschule Karlsruhe",
+            "latitude": "49,006,889",
+            "longitude": "8,403,653"
+        },
+        "offers": {
+            "price": "153",
+            "priceCurrency": "EUR",
+            "paymentFrequency": "semester"        
+        },
+        "numberOfCredits": "210",
+        "educationalCredentialAwarded": ["qualification"],
+        "competencyRequired": [
+            {
+                "targetName": "interact verbally in German",
+                "alternateName": ["speak German", "interact verbally in German", "be fluent in German", "verbally interact in German", "communicate verbally in German", "interacting verbally in German"],
+                "description": "Communicate orally in German.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/2abb9db5-350c-444c-8292-0e0b2ce00f9a"
+            },
+            {
+                "targetName": "understand spoken German",
+                "alternateName": ["comprehend spoken German", "understand spoken German", "interpret spoken German", "understand German speech", "listen to German", "make sense of spoken German", "understanding spoken German"],
+                "description": "Comprehend orally expressed German.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/1d5526b3-f17b-46fc-ba7d-f4a32d908a7e"
+            },
+            {
+                "targetName": "understand written German",
+                "alternateName": ["comprehend written German", "understanding written German", "read German", "understand German writing", "interpret written German", "make sense of written German", "understand written German"],
+                "description": "Read and comprehend written texts in German.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/486e4f39-e968-41f4-955e-56e9eba96ef5"
+            },
+            {
+                "targetName": "write German",
+                "alternateName": ["show competency in written German", "writing German", "correspond in written German", "write German"],
+                "description": "Compose written texts in German.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/52894650-9077-40f0-96d6-6f07d1a6cafa"
+            },
+            {
+                "targetName": "use an application-specific interface",
+                "alternateName": ["use an interface specific to the application", "application-specific interface using", "application-specific interface operating", "using an application-specific interface", "operating an application-specific interface", "operating an interface specific to the application", "use an application-specific interface", "operate an interface specific to the application", "operate an application-specific interface", "using an interface specific to the application"],
+                "description": "Using digital tools to browse, search, filter, organise, store, retrieve, and analyse data, information and digital content, to collaborate and communicate with others, and create and edit new content.",
+                "educationalFramework": "ESCO - Skills",
+                "targetUrl": "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9"
+            }
+
+        ],
+        "audienceType": ["Student"],
+        "applicationStartDate": "2022-10-25",
+        "applicationDeadline": "2023-01-15",
+        "accessModeSufficient": ["textual", "visual", "auditory", "wheelchair"],
+        "instructors": [
+            {
+                "name": "Prof. Dr. Patrick Baier",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Patrick Baier",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/1/8/csm_3_-_1409810-4_bcf31ba89c.jpeg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Maschinelles Lernen an der Fakultät für Informatik der Hochschule Karlsruhe."
+            },
+            {
+                "name": "Prof. Dr. Andrea Cnyrim",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Andrea Cnyrim.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/f/b/csm_AC_2014_PortraetGut_03_3795a8838d.jpeg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professur für Interkulturelle Kommunikation. Senatskommission KfC (Kommission für faire Chancen) und Senatskommission für die Zuteilung von Beihilfen und Darlehen an ausländische Studierende."
+            },
+            {
+                "name": "Prof. Dr. Thomas Fuchß",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Thomas Fuchß",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/1/f/csm_HKA_IWI_FGI_20171016_FuchssThomas_web_quer_97285228ec.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Praktikantenamtsleiter Informatik und Medieninformatik Bachelor, Professor für Betriebssysteme und Software-Engineering und Praktikantenamtsleiter Informatik und Medieninformatik Bachelor, Professor für Betriebssysteme und Software-Engineering, Mobile Computing"
+            },
+            {
+                "name": "Prof. Dr. Uwe Haneke",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Uwe Haneke",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/b/5/csm_Profil_Haneke_4e10ac29f4.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Betriebswirtschaftslehre und betriebliche Informationssysteme"
+            },
+            {
+                "name": "Prof. Dr. Björn Hein",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Björn Hein",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/7/d/csm_20170808-CN-01-036_mod_Kopie_01_5bb80abcd0.png",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Intelligente Produktion und Cloud-Robotik"
+            },
+            {
+                "name": "Prof Dr. Peter Henning",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof Dr. Peter Henning.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/1/0/csm_HKA_IWI_FGI_20190527_HenningPeter_web_quer_afa256095a.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Peter Andreas Henning ist ein deutscher Informatiker und Physiker. Er ist seit 1998 Professor für Informatik an der Fakultät für Informatik der Hochschule Karlsruhe und war von 2013 bis 2020 Gastprofessor für Information Business Technologies an der privaten Steinbeis-Hochschule Berlin."
+            },
+            {
+                "name": "Prof. Thomas Hinz",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Thomas Hinz.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/f/b/csm_Hinz_Thomas_ce584fa221.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Studiendekan Medieninformatik Bachelor, Professor für Mediengestaltung."
+            },
+            {
+                "name": "Prof. Dr. Dirk Hoffmann",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof Dr. Peter Henning.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/2/a/csm_HKA_IWI_FGI_20110322_HoffmannDirk_quer_web_0f97692ce8.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Dirk W. Hoffmann ist ein deutscher Informatiker. Er ist seit 2004 Professor an der Fakultät für Informatik der Hochschule Karlsruhe."
+            },
+            {
+                "name": "Prof. Dr. Reimar Hofmann",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Reimar Hofmann.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/7/f/csm_HKA_IWI_FGW_20171016_HofmannReimar_web_quer_2b8445af98.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Studiendekan Data Science Bachelor, Professor für Wirtschaftsmathematik, Data Science, Statistik, Entrepreneurship"
+            },
+            {
+                "name": "Prof. Dr. Dennis Janka",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Dennis Janka.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/6/e/csm_dj_color_01505e2545.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Maschinelles Lernen und Grundlagen der Mathematik."
+            },
+            {
+                "name": "Prof. Dr. Heiko Körner",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Heiko Körner.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/1/d/csm_HKA_IWI_FGI_20171016_KoernerHeiko_web_quer_18c749a60f.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Prüfungsausschussvorsitzender Informatik und Medieninformatik Bachelor sowie Informatik Master, Professor für Grundlagen der Informatik, Theoretische Informatik."
+            },
+            {
+                "name": "Prof. Dr. Christian Langen",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Christian Langen.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/6/3/csm_Profilbild_06_ef1ad19f72.png",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Technische Informatik und Eingebettete Systeme."
+            },
+            {
+                "name": "Prof. Dr.-Ing. Astrid Laubenheimer",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr.-Ing. Astrid Laubenheimer.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/e/e/csm__J7A1377_bw_korr_6f627aa73a.png",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professorin für Angewandte Informatik."
+            },
+            {
+                "name": "Prof. Dr. Norbert Link",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Norbert Link.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/f/6/csm_F_NorbertL_1019_lzn_acd4b15f7b.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Technische Informatik, Bildverarbeitung, Embedded Systems."
+            },
+            {
+                "name": "Prof. Dr. Britta Nestler",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Britta Nestler.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/9/6/csm_HKA_IWI_FGI_20171016_NestlerBritta_web_quer_005f2630ef.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professorin für Mathematik, Modellbildung und Simulation."
+            },
+            {
+                "name": "Prof. Dr. Zoltán Nochta",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Zoltán Nochta.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/6/f/csm_WII_174x219_20141013_Nochta_Zoltan_55bdcea2b9.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Innovative IT-Anwendungen."
+            },
+            {
+                "name": "Prof. Dr. Christian Pape",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "description": "Pape beendete sein Informatikstudium an der Universität Karlsruhe 1996 und war danach als wissenschaftlicher Mitarbeiter am Institut für Logik, Komplexität und Deduktionssysteme (dem heutigen Institut für Theoretische Informatik) tätig. Er promovierte 1999 und arbeitete dann als Software-Architekt in der Schweiz. 2005 nahm er eine Professur an der Hochschule Karlsruhe an, wo er unter anderem in der Grundausbildung des Informatik-Bachelor-Studiengangs tätig ist. "
+            },
+            {
+                "name": "Prof. Dr. rer. pol. Mathias Philipp",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. rer. pol. Mathias Philipp.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/d/2/csm_HKA_IWI_FGI_20171016_PhilippMathias_web_quer_0c3dcae617.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für ERP-Systeme, IT-Service Management und IT-Entrepreneurship."
+            },
+            {
+                "name": "Prof. Dr. Frank Schaefer",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Frank Schaefer.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/1/7/csm_20171016_IWI_I_SchaeferFrank_54_2378_web_1ac86139e3.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Mathematik und Kryptographie."
+            },
+            {
+                "name": "Prof. Dr.-Ing. Andreas P. Schmidt",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr.-Ing. Andreas P. Schmidt.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/f/e/csm_HKA_IWI_FGW_20171016_SchmidtAndreas_web_quer_a179070b28.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Datenbanken, web-basierte Informationssysteme und Big-Data."
+            },
+            {
+                "name": "Dr. Günther Schreiner",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Dr. Günther Schreiner.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/e/6/csm_Portra__t_Gu__nther_Schreiner_010_print__c_gesang_photo_GP_01684_c5b73aba33.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Leiter Rechenzentrum."
+            },
+            {
+                "name": "Prof. Daniel Schwarz",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Daniel Schwarz.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/d/c/csm_HKA_IWI_FGI_20190528_SchwarzDaniel_web_quer_35e84e4619.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Interaktive Medien."
+            },
+            {
+                "name": "Prof. Dr. Carsten Sinz",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Carsten Sinz.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/8/9/csm_CarstenSinz_3_01_0d615eb282.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Professor für Softwareentwicklung."
+            },
+            {
+                "name": "Prof. Dr. Martin Sulzmann",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Martin Sulzmann",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/d/2/csm_IMG_5697_cee532027e.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Martin Sulzmann received a Dipl. Inf. from the University of Karlsruhe in 1996 and a PhD from Yale University in 2000. He was lecturer at the University of Melbourne from 2000-2002, Assistant Professor at the National University of Singapore from 2002-2007, and Associate Professor at the IT University of Copenhagen in 2008. After a 3 1/2 year stint in industry, Martin returned to academia. He is now a Professor at the Hochschule Karlsruhe - Technik und Wirtschaft. Martin's primary research area are programming languages, program analysis and software verification."
+            },
+            {
+                "name": "Prof. Dr.-Ing. Holger Vogelsang",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr.-Ing. Holger Vogelsang.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/5/b/csm_HKA_IWI_FGI_20171016_VogelsangHolger_web_quer_2aa3da60fb.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Prodekan, Studiendekan Informatik Bachelor, Professor für Einführung Informatik und Softwareentwicklung."
+            },
+            {
+                "name": "Prof. Dr. Oliver P. Waldhorst",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Oliver P. Waldhorst.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/9/6/csm_HKA_IWI_FGI_20171016_WaldhorstOliver_web_quer_49e99698c8.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Oliver P. Waldhorst erhielt die Abschlüsse Diplom-Informatiker im Jahr 2000 und als Dr. rer. nat. im Jahr 2005, beide von der Universität Dortmund. Er habilitierte sich im Februar 2011 an der Fakultät für Informatik des Karlsruher Institut für Technologie (KIT). Oliver Waldhorst vertritt seit September 2016 das Fachgebiet Rechner- und Kommunikationsnetze an der Fakultät für Informatik und Wirtschaftsinformatik. Zuvor entwickelte er für die Daimler AG Kommunikationsarchitekturen im Bereich Connected Car (September 2013 - August 2016) und forschte am KIT (September 2006 - August 2013). Dort leitete er von August 2007 bis September 2011 eine Nachwuchsgruppe, die aus Mitteln der Exzellenzinitiative sowie aus Drittmitteln finanziert wurde. Während seiner Promotion arbeitete er als wissenschaftlicher Mitarbeiter an der Universität Dortmund (April 2000 - Dezember 2005) und nach erfolgreichem Abschluss als wissenschaftlicher Mitarbeiter an der Universität Leipzig (Januar 2006 - August 2006). Von September 2009 bis Februar 2010 besuchte er die University of Toronto als Visiting Researcher in der Gruppe von Prof. Jörg Liebeherr. Von April 2011 bis März 2012 vertrat er Prof. Andreas Mitschele-Thiel als Lehrstuhlleiter (W3) an der TU Ilmenau."
+            },
+            {
+                "name": "Prof Dr. Matthias Wölfel",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof Dr. Matthias Wölfel.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/e/3/csm_HKA_IWI_FGI_20190527_WoelfelMatthias_web_quer_4256c2f7c4.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Matthias Wölfel ist Professor für Intuitive und Perzeptive Benutzungsschnittstellen an der Hochschule Karlsruhe in der Fakultät für Informatik und Wirtschaftsinformatik und Assoziierter Professor an der Universität Hohenheim in der Fakultät für Wirtschafts- und Sozialwissenschaften. Nach dem Studium der Elektrotechnik, Informationstechnik und Informatik am Karlsruhe Institute of Technology (KIT), an der University of Massachusetts, Dartmouth, MA, USA, und an der Carnegie Mellon University (CMU), Pittsburgh, PA, USA war er Professor für Interaktive Medien an der Hochschule Furtwangen und Professor für Intermediales Design an der Hochschule Pforzheim. In Furtwangen war er als Prodekan der Fakultät Digitale Medien und Studiengangsleiter der Masterstudiengänge Medieninformatik sowie MusicDesign tätig."
+            },
+            {
+                "name": "Prof. Dr. Christian Zirpins",
+                "type": "Person",
+                "jobTitle": "Professor",
+                "image": {
+                    "alternativeText": "The images shows a photo of Prof. Dr. Christian Zirpins.",
+                    "url": "https://www.h-ka.de/fileadmin/_processed_/e/3/csm_61280001_farbe_landsc_breit_cfb37605e1.jpg",
+                    "license": {
+                        "id": "Proprietary",
+                        "url": "https://www.wipo.int/copyright/en/"
+                    }
+                },
+                "description": "Christian Zirpins is a full professor for Distributed Systems in the faculty of Computer Science and Business Information Systems at Karlsruhe University of Applied Sciences, Germany. His areas of interest include distributed middleware- and software-technologies for data-centric systems engineering. Christian studied computer science and business administration at Hamburg University where he also received his PhD focusing on service-oriented systems. In 2006, he was awarded a Marie Currie Fellowship to conduct studies on software service engineering at University College London (UCL). In 2008 he joined the Karlsruhe Institute of Technology (KIT) and acted as a research team leader and project manager in the area of Services and Cloud Computing. In 2011 Christian changed to SEEBURGER AG, where he was working in the area of business-to-business integration with a special focus on big data applications. In 2015, Christian accepted the appointment to a full professorship at Karlsruhe University of Applied Sciences. Christian published some 70+ papers and articles. He is a member of various programme and organization committees and acts as a reviewer for a range of major journals."
+            }
+        ],
+        "occupationalCategory": {
+            "targetName": "computer scientist",
+            "alternateName": ["ICT scientist", "computer scientist", "IT researcher", "ICT science researcher", "computers scientist", "ICT research scientist", "IT research scientist", "IT science researcher", "ICT researcher", "IT scientist"],
+            "description": "Computer scientists conduct research in computer and information science, directed toward greater knowledge and understanding of fundamental aspects of ICT phenomena. They write research reports and proposals. Computer scientists also invent and design new approaches to computing technology, find innovative uses for existing technology and studies and solve complex problems in computing.",
+            "educationalFramework": "ESCO - Occupations",
+            "targetUrl": "http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e"
+        },
+        "courses": [],
+        "dateCreated": "2023-01-24 15:01:20.430322",
+        "dateModified": "2023-01-24 15:01:20.430322"
+    }
+}
+
