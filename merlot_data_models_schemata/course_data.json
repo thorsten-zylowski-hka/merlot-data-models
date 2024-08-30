@@ -1,0 +1,175 @@
+{
+    "identifier": "093f478f-f7ad-43de-8210-286536a48534",
+    "type": "Course",
+    "attributes": {
+        "name": "A Half Century of Internet: How it works today",
+        "courseCode": "internetworking2020",
+		"learningResourceType":[
+			{
+				"identifier": "https://skohub.io/dini-ag-kim/hcrt/heads/master/w3id.org/kim/hcrt/course.en.html",
+				"type": "Concept",
+				"inScheme": "https://w3id.org/kim/hcrt/scheme"
+			}
+		],
+        "description": "<p>The Internet connects more than half of …",
+        "inLanguage": ["en"],
+        "startDate": "2020-08-16T10:55:00Z",
+        "endDate": "2020-09-16T10:55:00Z",
+		"expires": "null",
+        "image": {
+            "description": "The image shows a …,",
+	    	"type": "ImageObject",
+            "contentUrl": "https://s3.xopic.de/openhpi-public/courses/hrQGwS4dOI8porAtQ2AU4/visual_v1.png",
+            "licenses": {
+                "name": "CC-BY-NC-SA-4.0",
+                "identifier": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            }
+        },
+        "trailer": {
+            "description": "The video shows a...",
+            "contentUrl": "https://player.vimeo.com/external/440585615.hd.mp4?s=97360b7e5f98ffdc69a7bdcc89ebabe6e4bb40ce&;profile_id=174&oauth2_token_id=1212898389",
+			"type": "videoObject",
+			"license": {
+				"name": "CC-BY-NC-SA-4.0",
+				"identifier": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+			}
+		},
+        "instructors": [
+            {
+                "name": "Christoph Meinel",
+				"honorificPrefix": "Prof. Dr.",
+                "type": "Person",
+                "jobTitle": "exercise instructor",
+                "image": {
+                    "alternativeText": "The image shows a …",
+		    		"type": "ImageObject",
+                    "contentUrl": "https://s3.xopic.de/openhpi-public/courses/hrQGwS4dOI8porAtQ2AU4/visual_v1.png",
+                    "license": {
+                        "name": "CC-BY-NC-SA-4.0",
+                        "identifier": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    }
+                },
+                "description": "<p>Professor Dr. Christoph Meinel (Univ. Prof., Dr. sc. nat., Dr. rer. nat., 1954) is Scientific Director and CEO of the <a href='https://hpi.de'>Hasso Plattner Institute for Digital Engineering gGmbH (HPI)</a>.</p>",
+				"affiliation": {
+					"name": "Hasso-Plattner-Institut",
+					"identifier": "https://hpi.de/",
+					"type": "Organization",
+					"image": {
+						"type": "ImageObject",
+						"contentUrl": "https://openhpi.azureedge.net/assets/logo-155a11eefd46841c38fb009a2d9b84d28550a0c920fbf50b591b3aa1f7c0190c.png",
+						"license": {
+							"name": "proprietary",
+							"identifier": "null"
+						}
+					}
+				}
+            }
+        ],
+        "teaches": [
+            {
+                "name": [
+					{
+						"inLanguage": "en",
+						"name": "BROWSING, SEARCHING AND FILTERING DATA, INFORMATION AND DIGITAL CONTENT",
+					}
+				],
+                "alternateName": "1.1",
+                "description": "To articulate information needs, to search for data, information and content in digital environments, to access them and to navigate between them. To create and update personal search strategies.",
+                "educationalFramework": "DigComp 2.2",
+                "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC128415/JRC128415_01.pdf",
+				"educationalLevel": {
+					"description": "Independently, according to my own needs, and solving well-defined and non-routine problems, I can: - illustrate information needs, - organise the searches of data, information and content in digital environments, - describe how to access these data, information and content, and navigate between them, - organise personal search strategies.",
+					"name": {
+						"inLanguage": "en",
+						"name": "Intermediate"
+					},
+					"alternateName": "4",
+					"educationalFramework": "DigComp 2.2",
+					"url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC128415/JRC128415_01.pdf",
+					"type": "Concept"
+				}
+            }
+        ],
+        "duration": "P2M4D",
+        "publisher": {
+            "name": "openHPI",
+            "identifier": "https://open.hpi.de/",
+	    	"type": "Organization",
+            "image": {
+				"type": "ImageObject",
+				"contentUrl": "https://openhpi.azureedge.net/assets/logo-155a11eefd46841c38fb009a2d9b84d28550a0c920fbf50b591b3aa1f7c0190c.png",
+				"license": {
+					"name": "proprietary",
+					"identifier": "null"
+				}
+	    	}
+        },
+        "url": "https://open.hpi.de/courses/internetworking2020",
+        "workload": {
+            "timeValue": "5",
+            "timeUnit": "h/week"
+        },
+		"license": {
+			"name": "CC-BY-NC-SA-4.0",
+			"identifier": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+		},
+		"access": "free",
+		"audience": "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/generalPublic",
+        "educationalAlignment": {
+			"alignmentType": "educationalSubject",
+			"educationalFramework": "ISCED",
+            "url": "http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf",
+			"name": {
+				"inLanguage": "en",
+				"name": "Computer use"
+			},
+			"alternateName": "0611",
+			"type": "Concept",
+			"description": "Computer software use, Computer use, Internet use, Use of software for calculating (spreadsheets), Use of software for data processing, Use of software for desktop publishing, Use of software for word processing"
+        },
+        "educationalLevel": {
+			"name": {
+				"inLanguage": "en",
+				"name": "Bachelors equivalent"
+			},
+			"alternateName": "6",
+			"educationalFramework": "ISCED",
+			"url": "http://uis.unesco.org/sites/default/files/documents/isced-2011-en.pdf",
+			"type": "Concept"
+        },
+        "keywords": ["internet", "netzworks"],
+        "contentLocation": {
+            "address": "null",
+            "name": "online",
+            "latitude": "null",
+            "longitude": "null"
+        },
+        "offer": {
+            "price": "0",
+            "priceCurrency": "EUR",
+            "paymentFrequency": "other"        
+        },
+        "numberOfCredits": "0",
+        "educationalCredentialAwarded": ["record of achievement", "confirmation of participation", "certificate"],
+		"accessMode": ["textual", "visual", "auditory"],
+		"assessments":[
+			{
+				"identifier": "1111111",
+				"framework": "RIASEC",
+				"cluster": [
+					{
+						"label": "künstlerisch",
+						"score": "0.676177680492401"
+					},
+					{
+						"label": "conventional",
+						"score": "0.1761776804"
+					}
+				]
+			}
+		],
+        "dateCreated": "2023-01-24 15:01:20.430322",
+        "dateModified": "2023-01-24 15:01:20.430322"
+    }
+}
+

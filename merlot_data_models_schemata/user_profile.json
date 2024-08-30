@@ -1,0 +1,247 @@
+{
+ 
+    "identifier": "12321",
+    "type": "Cognitive Position",
+    "attributes":
+    {
+        "educationalPathHistory":
+        [
+            {
+                 
+                    "identifier": "323242",
+                    "type": "Educational Programme",
+                    "attributes":
+                    {
+                        "identifier": "111111",
+                        "name": "Gymnasium",
+                        "description": "Das Fichte-Gymnasium ist ein nach Johann Gottlieb Fichte benanntes Gymnasium im Stadtteil Innenstadt-West von Karlsruhe mit rund 800 Schülern und 70 Lehrern.",
+                        "contentLocation":
+                        {
+                            "name": "Fichte-Gymnasium Karlsruhe",
+                            "address": "Karlsruhe"
+                        },
+                        "certificate":
+                        {
+                            "identifier": "111111",
+                            "attributes":
+                            {
+                                "title": "Abitur",
+                                "certifyingOrganization": "Fichte-Gymnasium Karlsruhe",
+                                "documents":[
+                                    {
+                                        "documentURI": "https://example.com/certificate.pdf",
+                                        "title": "original certificate"
+                                    },
+                                    {
+                                        "documentURI": "https://example.com/records.pdf",
+                                        "title": "Records"
+                                    }
+                                ],
+                                "issueDate": "02.2017",
+                                "expiryDate": null
+                            }
+                        }
+                    }
+                 
+            },
+            {
+                 
+                    "identifier": "345235",
+                    "type": "Educational Programme",
+                    "attributes":
+                    {
+                        "identifier": "111112",
+                        "name": "Informatik (B.Sc.)",
+                        "description": "Der Bachelorstudiengang Informatik bereitet Sie praxisnah und mit einer hohen Qualität an aktuellem Wissen und jahrelanger Erfahrung in der Lehre auf eine IT-Karriere vor, die Ihnen unzählige berufliche Möglichkeiten in unterschiedlichen Branchen bietet. Die im Studium erworbenen Fähigkeiten – beispielsweise komplexe Probleme zu analysieren, Programmlösungen zu entwickeln, im Team zu arbeiten und mit Kunden in Dialog zu treten – sind die optimale Grundlage für den Einstieg in ein spannendes und abwechslungsreiches Berufsleben.",
+                        "contentLocation": {
+                            "name": "Hochschule Karlsruhe",
+                            "address": "Moltkestraße 30, 76133 Karlsruhe"
+                        },
+                        "keywords": ["C#", "Java"],
+                        "certificate":
+                        {
+                            "identifier": "111111",
+                            "attributes":
+                            {
+                                "title": "Bachelor on Informatics",
+                                "certifyingOrganization": "Hochschule Karlsruhe",
+                                "documents":[
+                                    {
+                                        "documentURI": "https://example.com/certificate.pdf",
+                                        "title": "original certificate"
+                                    },
+                                    {
+                                        "documentURI": "https://example.com/records.pdf",
+                                        "title": "Records"
+                                    },
+                                    {
+                                        "documentURI": "https://example.com/official_translation.pdf",
+                                        "title": "official english translation of the certificate"
+                                    }
+                                ],
+                                "issueDate": "12.2022",
+                                "expiryDate": null,
+                                "type": ["conclusion"],
+                                "grade": "1.2"
+                            }
+                        },
+                        "startDate": "10.2019",
+                        "endDate":"08.2022",
+                        "status": "finished"
+                    }          
+                 
+            },
+            {
+                 
+                    "identifier": "345236",
+                    "type": "Course",
+                    "attributes":
+                    {
+                        "identifier": "111113",
+                        "name": "Ethik in Informatik",
+                        "description": "Der Kurs \"Ethik in der Informatik\" an der Fernuni Hagen beschäftigt sich mit den ethischen Herausforderungen und Verantwortlichkeiten, die mit der Entwicklung und Anwendung von Informationstechnologie verbunden sind. Der Kurs bietet eine Einführung in die ethischen Theorien und Prinzipien, die bei der Beurteilung von Fragen im Zusammenhang mit der Informationstechnologie relevant sind. Dazu gehören Themen wie Datenschutz, Überwachung, digitale Ungleichheit, Künstliche Intelligenz, Robotik, Cybersecurity und vieles mehr.",
+                        "contentLocation": {
+                            "name": "openHPI"
+                        },
+                        "keywords": ["Ethik", "Informatik", "Datenschutz"],
+                        "startDate": "10.2022",
+                        "endDate": "08.2023",
+                        "status": "in progress"
+                    }          
+                 
+            }          
+             
+        ],
+        "workingHistory":
+        [
+            {
+                 
+                    "identifier": "564565",
+                    "type": "Job",
+                    "attributes":
+                    {
+                        "identifier": "111113",
+                        "title": "Werkstudent Data Science",
+                        "description": "Unterstützung bei internen oder Kundenprojekten und Anwendung von Data Science Technologien.",
+                        "hiringOrganization": {
+                            "location":
+                            {
+                                "name": "esentri AG",
+                                "address": "Pforzheimer Str. 128b 76275 Ettlingen, Karlsruhe"
+                            }
+                        },
+                        "keywords": ["Data Science", "Datenbanken"],
+                        "jobStartDate": "10.2021",
+                        "jobEndDate": "08.2022"
+                    }          
+                 
+            }          
+        ],
+        "skills":
+        [
+            {
+                 
+                    "name":
+                    {
+                        "inLanguage": "de",
+                        "name": "Englisch"
+                    },
+                    "educationalFramework": "CEFR",
+                    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+                    "educationalLevel": "B2"
+                 
+            },
+            {
+                 
+                    "name":
+                    {
+                        "inLanguage": "en",
+                        "name": "Javascript"
+                    },
+                    "educationalLevel": "intermediate"
+                 
+            },
+            {
+                 
+                    "name":
+                    {
+                        "inLanguage": "de",
+                        "name": "Deutsch"
+                    },
+                    "educationalFramework": "CEFR",
+                    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+                    "educationalLevel": "C1"
+                 
+            },
+            {
+                 
+                    "name":
+                    {
+                        "inLanguage": "en",
+                        "name": "Branding"
+                    },
+                    "educationalLevel": "beginner"
+                 
+            },
+            {
+                 
+                    "name":
+                    {
+                        "inLanguage": "de",
+                        "name": "Teamfähigkeit"
+                    }
+                 
+            }
+        ],
+        "interests": {
+            "personalInterests": ["IT", "Medizininformatik", "Programmierung", "Scrum", "Softwareentwicklung", "Vertrieb"],
+            "hobbies": ["Urban Gardening", "Latte Art"],
+            "volunteering": ["Open Source"],
+            "opinions": ["Ich denke der Klimawandel ist die größte Herausforderung unserer Zeit.", "Ich glaube ChatGPT wird den Arbeitsmarkt nachhaltig verändern."]
+        },
+        "userTargets":{
+            "educationalTarget": {
+                "fieldOfSpecification": ["Data Science", "Software Engineering"],
+                "target": ["PhD"]
+            },
+            "careerTargets": ["Head of Development"],
+            "positionChangeReasons": [
+                "Ich möchte mehr Zeit für meine Familie haben"
+            ],
+            "personalRequirements": ["Home office", "Flexible Arbeitszeiten"]
+        },  
+        "personalAssessment": [{
+            "identifier": "111114",
+            "framework": "riasec",
+            "clusters":
+            [
+                {
+                    "label": "künstlerisch",
+                    "score": "0.6761776804924011"
+                },
+                {
+                    "label": "sozial",
+                    "score": "0.12924496829509735"
+                },
+                {
+                    "label": "investigativ",
+                    "score": "0.06201709061861038"
+                },
+                {
+                    "label": "konventionell",
+                    "score": "0.0512198880314827"
+                },
+                {
+                    "label": "unternehmerisch",
+                    "score": "0.04103587940335274"
+                },
+                {
+                    "label": "realistisch",
+                    "score": "0.04030449688434601"
+                }
+            ]
+        }],
+        "dateCreated": "2022-08-16T10:55:00Z",
+        "dateModified": "2022-08-16T10:55:00Z"
+    }
+}
