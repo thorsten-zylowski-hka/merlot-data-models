@@ -1,0 +1,10 @@
+{
+    "trailer" : {
+        "description" : "an alternative Text if the video cannot be displayed",
+        "type" : "Enum = [\"VideoObject\"], clarification of attribute",
+        "contentUrl" : "iri to the actual video",
+        "license" : [
+            "Array[License] CreativeWork -> complex -> the licenses for the video"
+        ]
+    }
+}

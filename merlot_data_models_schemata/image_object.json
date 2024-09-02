@@ -1,0 +1,8 @@
+{
+    "image" : {
+        "description" : "an alternative Text if the image cannot be displayed",
+        "type" : "giving the type of the object for example ImageObject",
+        "contentUrl" : "iri to the actual image",
+        "license" : ["the licenses for the image, -> license object"]
+    }
+}

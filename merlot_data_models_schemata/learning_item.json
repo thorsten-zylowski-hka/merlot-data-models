@@ -1,0 +1,18 @@
+{
+    "learningItem" : {
+        "type": "",
+        "identifier" : "",
+        "name" : "",
+        "duration" : "",
+        "competencyRequired": [
+            "Array[CompetencyRequired], all prerequisites needed to take this course; this includes Skills, Certificates, (high) school degrees, other courses, … etc."
+        ],
+        "keywords" : "",
+        "educationalLevel" : [
+            "Array[EducationalLevel], description of the competency level of the learningResource"
+        ],
+        "teaches" : [
+            "Array[Skill], list of learning objectives of a learningResource as an array of Skill objects"
+        ]
+    }
+}

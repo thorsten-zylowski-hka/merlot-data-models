@@ -1,0 +1,8 @@
+{
+    "place" : {
+        "name" : "the name of the place/university, etc the course takes place or \"online\" or \"hybrid\"",
+        "address" : "the physical or virtual address where the course takes place; room can be given here",
+        "latitude" : 0.1234556789,
+        "longitude" : 0.1234556789
+    }
+}

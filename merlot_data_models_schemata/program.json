@@ -1,0 +1,7 @@
+{
+    "program" : {
+        "identifier" : "pointer to program",
+        "type" : "Enum = [\"Program\"]",
+        "title" : "name of the course program"
+    }
+}

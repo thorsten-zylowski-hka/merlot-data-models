@@ -1,0 +1,13 @@
+{
+    "person" : {
+        "name" : "",
+        "honorificPrefix" : "",
+        "honorificSuffix" : "",
+        "identifier" : "iri to a homepage or ORCID, Wikidata, GNG or ROR",
+        "type" : "Enum = [\"Person\"]",
+        "jobTitle": "role of a Person",
+        "description" : "a short description of the organization",
+        "image" : "ImageObject, an image of the Person",
+        "affiliation": "Organization, The organization of the contributer (if person). The organization should be chosen in the context of the course creation"
+    }
+}

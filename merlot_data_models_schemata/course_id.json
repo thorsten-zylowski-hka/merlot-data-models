@@ -1,0 +1,12 @@
+{
+    "course_id" : {
+        "name": [
+            {
+                "name": "the name of the course in the respective Language",
+                "inLanguage": "en"
+            }
+        ],
+        "educationalFramework" : "enum = ['Course ID'], this needs to be given to be compliant to a Skill objec",
+        "targetUrl" : "iri_pointing_at.com/course"
+    }
+}

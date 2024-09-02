@@ -1,0 +1,7 @@
+{
+    "repeatFrequency" : {
+        "byDay" : "The day of the week this event takes place; the Day has to be given according to https://schema.org/DayOfWeek ",
+        "startTime" : "the start time of the event given at the specified day according to ISO 8601",
+        "endTime" : "the end time of the event given at the specified day  according to ISO 8601"
+    }
+}

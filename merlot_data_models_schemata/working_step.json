@@ -1,0 +1,29 @@
+{
+    "workingStep" : {
+        "type": "Job",
+        "identifier" : "1111111",
+        "attributes" : {
+            "title" : "Werkstudent:in Data Science",
+            "identifier" : "345235",
+            "description" : "Unterstützung bei internen oder Kundenprojekten und Anwendung von Data Science Technologien.",
+            "hiringOrganization" : {
+                "location" : {
+                    "name" : "esentri AG",
+                    "address" : "Pforzheimer Str. 128b 76275 Ettlingen",
+                    "latitude" : 0.1234567889,
+                    "longitude" : 0.1234567889
+                }
+            },
+            "keywords" : ["Data Science", "Databases"],
+            "jobStartDate" : ["10.2021"],
+            "jobEndDate" : [ "08.2022"],
+            "status" : "finished",
+            "documents" : [ 
+                {
+                    "documentURI" : "https://example.com/certificate.pdf",
+                    "title" : "Arbeitzeugnis"
+                }
+            ]
+        }
+    }
+}

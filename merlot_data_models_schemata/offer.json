@@ -1,0 +1,7 @@
+{
+    "offers" : {
+        "price" : 123.34,
+        "priceCurrency" : "the currency the price is given in, use standard formats: ISO 4217",
+        "paymentFrequency" : "How often the price is to pay; Enum = [\"one-time\", \"weekly\",  \"monthly\", \"by semester\", \"yearly\", \"other\"]"
+    }
+}

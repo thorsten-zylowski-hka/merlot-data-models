@@ -1,0 +1,9 @@
+{
+    "organization" : {
+        "name" : "",
+        "identifier" : "iri to the organization homepage, Wikidata, ROR",
+        "type" : "Enum = [\"Organization\"]",
+        "description" : "a short description of the organization",
+        "image" : "ImageObject, an image of the Organization or logo"
+    }
+}
