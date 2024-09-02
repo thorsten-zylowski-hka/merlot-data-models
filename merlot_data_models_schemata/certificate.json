@@ -1,0 +1,19 @@
+{
+    "certificate" : {
+        "identifier" : "111111",
+        "attributes" : {
+            "title" : "Academic English",
+            "certifyingOrganization" : "IELTS",
+            "documents" : [ {
+                "documentURI" : "https://example.com/certificate.pdf",
+                "title" : "original Certificate"
+                }
+            ]
+        },
+        "issueDate" : ["02.2022"],
+        "expiryDate" : ["02.2024"],
+        "type" : ["proficiency certificate"],
+        "level" : "C1",
+        "grade" : "7.0"
+    }
+}

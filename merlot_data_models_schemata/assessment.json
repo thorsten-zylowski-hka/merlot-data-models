@@ -1,0 +1,15 @@
+{
+    "assessment" : 
+    [
+        {
+            "identifier" : "11111",
+            "framework" : "RIASEC",
+            "clusters" : [
+                {
+                    "label" : "künstlerisch",
+                    "score" : 0.676177680492401
+                }
+            ]
+        }
+    ]
+}
